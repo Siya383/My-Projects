@@ -1,0 +1,22 @@
+num1= input("Enter the first number:-")
+num2= input("Enter the second number:-")
+num1= int(num1)
+num2= int(num2)
+product1 = (num1*num2)
+print("The product of these number is",product1)
+
+num3= input("Enter the third number")
+num3= int(num3)
+product2= (num3*product1)
+print("the product is",product2)
+
+d= input("Enter the fourth number")
+d= int(d)
+four= (d*product)
+print("the product is",four)
+
+
+e= input("Enter the fifth number")
+e= int(e)
+five= (e*four)
+print("The final answer is",five)

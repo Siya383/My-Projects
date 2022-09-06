@@ -1,4 +1,16 @@
-a= input("Enter your number here:")
+'''a= input("Enter your number here:")
 a= int(a)
 square=(a*a)
-print("the square of the number is",square)
+print("the square of the number is",square)'''
+
+
+def find_square(number):
+  if number == 0 return
+  print(f'The square of the {number} is:', number * number)
+  return number * number
+
+print(find_square(10))
+user_input = int(input('enter your number'))
+result = find_square(user_input)
+print(result)
+print(find_square(user_input))
